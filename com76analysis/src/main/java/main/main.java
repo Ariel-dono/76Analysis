@@ -16,7 +16,8 @@ public class main {
         try {
             TwitterAPIConn tapiConn = new TwitterAPIConn();
             tapiConn.run("Pa8vxxx6iBcwuaJqYIwbqDsrE", "61GCCbElKq21Q9Ghamy3LJ0WE4Rt0rvnw6EdKtMIywJs9bB4UU",
-                    "79249701-vtUdQFoVEN0GiYILuWLwtqUTtbH8cY3VVoFzb5NSd", "8N6y00C6pT28ocnD6PbkPu9qn9UQGjdsCLwBSAerLW9Xt", "#costarica");
+                    "79249701-vtUdQFoVEN0GiYILuWLwtqUTtbH8cY3VVoFzb5NSd", "8N6y00C6pT28ocnD6PbkPu9qn9UQGjdsCLwBSAerLW9Xt",
+                    "#costarica");
             Thread.sleep(90000);
             tapiConn.kill();
         } catch (Exception e) {

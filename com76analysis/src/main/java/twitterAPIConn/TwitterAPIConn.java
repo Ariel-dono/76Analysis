@@ -8,9 +8,6 @@ import Database.Hypertable;
 import twitter4j.*;
 import twitter4j.auth.AccessToken;
 
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-
 public class TwitterAPIConn extends Thread{
     private long lastTweet = 0;
     private boolean activeSearch = true;
@@ -34,7 +31,7 @@ public class TwitterAPIConn extends Thread{
                 if (this.lastTweet != tweet.getId() && (tweet.getLang().compareTo("es") == 0 || tweet.getLang().compareTo("en") == 0)) {
                     this.lastTweet = tweet.getId();
                     this.regexReplacement.set(tweet.getText());
-                    System.out.println("@" + tweet.getUser().getScreenName() + " - " + this.regexReplacement.transform() + " - " + tweet.getCreatedAt().toString());
+                    System.out.println(tweet.getId() + " - " + "@" + tweet.getUser().getScreenName() + " - " + this.regexReplacement.transform() + " - " + tweet.getCreatedAt().toString());
                     this.db.set(tweet.getId()+"",busqueda,"@" + tweet.getUser().getScreenName(), this.regexReplacement.transform().toLowerCase(), tweet.getCreatedAt().toString());
                 }
                 Thread.sleep(6000);
