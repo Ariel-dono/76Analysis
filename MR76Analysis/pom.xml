@@ -4,28 +4,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>76Analysis</groupId>
-    <artifactId>com.76analysis</artifactId>
+    <groupId>mr.76analysis</groupId>
+    <artifactId>MR76Analysis</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
-        <dependency>
-            <groupId>com.twitter</groupId>
-            <artifactId>hbc-core</artifactId> <!-- or hbc-twitter4j -->
-            <version>2.2.0</version> <!-- or whatever the latest version is -->
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/com.twitter/hbc-twitter4j -->
-        <dependency>
-            <groupId>com.twitter</groupId>
-            <artifactId>hbc-twitter4j</artifactId>
-            <version>2.2.0</version>
-        </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.thrift/libthrift -->
-        <dependency>
+        <!--<dependency>
             <groupId>org.apache.thrift</groupId>
             <artifactId>libthrift</artifactId>
             <version>0.10.0</version>
-        </dependency>
+        </dependency>-->
+
+
         <!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-mapreduce-client-core -->
         <dependency>
             <groupId>org.apache.hadoop</groupId>
@@ -55,6 +46,14 @@
             <artifactId>hbase-common</artifactId>
             <version>1.1.0</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.hbase</groupId>
+            <artifactId>hbase-server</artifactId>
+            <version>1.1.0</version>
+        </dependency>
+
+
     </dependencies>
 
 </project>
