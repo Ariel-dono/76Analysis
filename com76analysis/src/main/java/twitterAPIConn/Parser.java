@@ -15,6 +15,7 @@ public class Parser {
 
     public String transform(){
         //Replace english
+        //this.message = this.message.replaceAll("https"," ");
         this.message = this.message.replaceAll("\\b(http|https|ftp)://[a-zA-Z0-9/%=?_].+[a-zA-Z0-9/%=?_]","");
         this.message = this.message.replaceAll(":"," ");
         this.message = this.message.replaceAll("[\n\r\t]+"," ");
