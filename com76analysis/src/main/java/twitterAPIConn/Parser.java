@@ -31,6 +31,7 @@ public class Parser {
         this.message = this.message.replaceAll("[ ][aA]fter[ ]"," ");
         this.message = this.message.replaceAll("[ ]eve[a-mo-z]{1,2}[ ]"," ");
         this.message = this.message.replaceAll("[ ]m[oa][b-mo-z]{1,2}[ ]"," ");
+        this.message = this.message.replaceAll("[ ]yo[ur]{1,2}[ ]"," ");
         this.message = this.message.replaceAll("[A-Z][a-z][ ]"," ");
         this.message = this.message.replaceAll("En[a-z]{1,4}[ ]"," ");
         this.message = this.message.replaceAll("Th[a-z]{1,3}[ ]"," ");
@@ -44,6 +45,7 @@ public class Parser {
         this.message = this.message.replaceAll("M[oa][b-mo-z]{1,2}[ ]"," ");
         this.message = this.message.replaceAll("[ ]f[or][a-z]{1,2}]"," ");
         this.message = this.message.replaceAll("F[or][a-z]{1,2}]"," ");
+        this.message = this.message.replaceAll("Yo[ur]{1,2}[ ]"," ");
 
         //Replace in spanish
         this.message = this.message.replaceAll("[ ][[cC]lu][a-hj-z]{1,2}[ ]"," ");
