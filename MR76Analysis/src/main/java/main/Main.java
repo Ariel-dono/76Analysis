@@ -5,7 +5,7 @@ import hadoop.Mapper;
 import hadoop.Reducer;
 import hadoop.SummaryWritable;
 import org.apache.hadoop.conf.Configuration;
-<<<<<<< HEAD
+
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.hbase.mapreduce.MultiTableOutputFormat;
 import org.apache.hadoop.io.Text;
@@ -13,25 +13,7 @@ import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.hbase.client.Table;
 import org.apache.hadoop.hbase.client.Scan;
 import org.apache.hadoop.hbase.mapreduce.TableMapReduceUtil;
-=======
-import org.apache.hadoop.conf.Configured;
-import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.hbase.mapreduce.MultiTableOutputFormat;
-import org.apache.hadoop.io.IntWritable;
-import org.apache.hadoop.io.Text;
-import org.apache.hadoop.mapreduce.Job;
-import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
-import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
-import org.apache.hadoop.util.Tool;
-import org.hypertable.hadoop.mapreduce.Helper;
-import org.hypertable.hadoop.mapreduce.KeyWritable;
-import org.hypertable.hadoop.mapreduce.ScanSpec;
-import org.apache.hadoop.util.ToolRunner;
-import org.apache.hadoop.hbase.client.Table;
-import org.apache.hadoop.hbase.client.Scan;
-import org.apache.hadoop.hbase.mapreduce.TableMapReduceUtil;
-import org.apache.hadoop.hbase.client.Result;
->>>>>>> bc019624e91ce8b6ae12bd636f917c5e25170a59
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.apache.hadoop.hbase.mapreduce.KeyValueSerialization;
