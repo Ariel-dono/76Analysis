@@ -11,6 +11,7 @@ import org.apache.hadoop.hbase.client.Put;
 import org.apache.hadoop.hbase.client.Table;
 import org.apache.hadoop.hbase.util.Bytes;
 
+
 public class TwitterAPIConn extends Thread{
     private long lastTweet = 0;
     private boolean activeSearch = true;

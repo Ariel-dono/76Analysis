@@ -45,7 +45,6 @@ public class Parser {
         this.message = this.message.replaceAll("[ ]f[or][a-z]{1,2}]"," ");
         this.message = this.message.replaceAll("F[or][a-z]{1,2}]"," ");
 
-
         //Replace in spanish
         this.message = this.message.replaceAll("[ ][[cC]lu][a-hj-z]{1,2}[ ]"," ");
         this.message = this.message.replaceAll("[ ][cC]omo[ ]"," ");

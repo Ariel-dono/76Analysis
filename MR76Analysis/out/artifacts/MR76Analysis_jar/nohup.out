@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 17/06/10 17:09:07 INFO zookeeper.RecoverableZooKeeper: Process identifier=hconnection-0x5e5eaa7f connecting to ZooKeeper ensemble=192.168.111.134:2181
 17/06/10 17:09:07 INFO zookeeper.ZooKeeper: Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
 17/06/10 17:09:07 INFO zookeeper.ZooKeeper: Client environment:host.name=florencio
@@ -68,13 +69,91 @@ Dump of the process-tree for container_1497110436941_0004_01_000003 :
 	|- PID PPID PGRPID SESSID CMD_NAME USER_MODE_TIME(MILLIS) SYSTEM_TIME(MILLIS) VMEM_USAGE(BYTES) RSSMEM_USAGE(PAGES) FULL_CMD_LINE
 	|- 104607 104595 104595 104595 (java) 424 67 2655539200 58287 /usr/bin/java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx768m -Xmn128m -XX:PermSize=128m -XX:MaxPermSize=128m -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=70 -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xloggc:/home/florencio/Install/Hadoop_HBase/hadoop/logs/gc-florencio-mapred.log -Djava.io.tmpdir=/home/florencio/Install/data/hdfs/hdfs_tmp/nm-local-dir/usercache/florencio/appcache/application_1497110436941_0004/container_1497110436941_0004_01_000003/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/home/florencio/Install/Hadoop_HBase/hadoop/logs/userlogs/application_1497110436941_0004/container_1497110436941_0004_01_000003 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA org.apache.hadoop.mapred.YarnChild 192.168.111.134 34417 attempt_1497110436941_0004_r_000000_0 3 
 	|- 104595 90312 104595 104595 (bash) 0 0 122769408 772 /bin/bash -c /usr/bin/java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN  -Xmx768m -Xmn128m -XX:PermSize=128m -XX:MaxPermSize=128m -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=70 -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xloggc:/home/florencio/Install/Hadoop_HBase/hadoop/logs/gc-florencio-mapred.log -Djava.io.tmpdir=/home/florencio/Install/data/hdfs/hdfs_tmp/nm-local-dir/usercache/florencio/appcache/application_1497110436941_0004/container_1497110436941_0004_01_000003/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/home/florencio/Install/Hadoop_HBase/hadoop/logs/userlogs/application_1497110436941_0004/container_1497110436941_0004_01_000003 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA org.apache.hadoop.mapred.YarnChild 192.168.111.134 34417 attempt_1497110436941_0004_r_000000_0 3 1>/home/florencio/Install/Hadoop_HBase/hadoop/logs/userlogs/application_1497110436941_0004/container_1497110436941_0004_01_000003/stdout 2>/home/florencio/Install/Hadoop_HBase/hadoop/logs/userlogs/application_1497110436941_0004/container_1497110436941_0004_01_000003/stderr  
+=======
+17/06/10 10:13:36 INFO zookeeper.RecoverableZooKeeper: Process identifier=hconnection-0x5e5eaa7f connecting to ZooKeeper ensemble=192.168.111.134:2181
+17/06/10 10:13:36 INFO zookeeper.ZooKeeper: Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+17/06/10 10:13:36 INFO zookeeper.ZooKeeper: Client environment:host.name=florencio
+17/06/10 10:13:36 INFO zookeeper.ZooKeeper: Client environment:java.version=1.8.0_131
+17/06/10 10:13:36 INFO zookeeper.ZooKeeper: Client environment:java.vendor=Oracle Corporation
+17/06/10 10:13:36 INFO zookeeper.ZooKeeper: Client environment:java.home=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-1.b12.fc25.x86_64/jre
+17/06/10 10:13:36 INFO zookeeper.ZooKeeper: Client environment:java.class.path=/home/florencio/Install/Hadoop_HBase/hadoop/etc/hadoop/:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/snappy-java-1.0.4.1.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/zookeeper-3.4.6.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/jsch-0.1.42.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/protobuf-java-2.5.0.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/jasper-compiler-5.5.23.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/jaxb-impl-2.2.3-1.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/jsr305-1.3.9.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/httpcore-4.2.5.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/commons-io-2.4.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/commons-lang-2.6.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/commons-configuration-1.6.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/commons-net-3.1.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/commons-codec-1.4.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/jackson-xc-1.9.13.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/jackson-core-asl-1.9.13.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/jettison-1.1.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/java-xmlbuilder-0.4.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/jasper-runtime-5.5.23.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/jersey-core-1.9.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.5.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/xmlenc-0.52.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/servlet-api-2.5.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/slf4j-api-1.7.5.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/hamcrest-core-1.3.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/api-asn1-api-1.0.0-M20.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/commons-beanutils-1.7.0.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/junit-4.11.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/jetty-util-6.1.26.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/commons-httpclient-3.1.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/apacheds-i18n-2.0.0-M15.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/jsp-api-2.1.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/jetty-6.1.26.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/commons-cli-1.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/hadoop-annotations-2.5.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/commons-beanutils-core-1.8.0.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/log4j-1.2.17.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/mockito-all-1.8.5.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/guava-11.0.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/commons-digester-1.8.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/commons-math3-3.1.1.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/commons-el-1.0.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/jersey-server-1.9.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/apacheds-kerberos-codec-2.0.0-M15.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/jackson-jaxrs-1.9.13.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/paranamer-2.3.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/avro-1.7.4.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/asm-3.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/hadoop-auth-2.5.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/api-util-1.0.0-M20.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/activation-1.1.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/jackson-mapper-asl-1.9.13.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/netty-3.6.2.Final.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/commons-collections-3.2.1.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/jaxb-api-2.2.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/commons-compress-1.4.1.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/xz-1.0.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/jets3t-0.9.0.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/stax-api-1.0-2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/httpclient-4.2.5.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/commons-logging-1.1.3.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/lib/jersey-json-1.9.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/hadoop-common-2.5.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/hadoop-nfs-2.5.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/common/hadoop-common-2.5.2-tests.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/hdfs:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/hdfs/lib/protobuf-java-2.5.0.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/hdfs/lib/jsr305-1.3.9.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/hdfs/lib/commons-io-2.4.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/hdfs/lib/commons-lang-2.6.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/hdfs/lib/commons-codec-1.4.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/hdfs/lib/jackson-core-asl-1.9.13.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/hdfs/lib/jasper-runtime-5.5.23.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/hdfs/lib/jersey-core-1.9.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/hdfs/lib/xmlenc-0.52.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/hdfs/lib/servlet-api-2.5.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/hdfs/lib/jetty-util-6.1.26.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/hdfs/lib/jsp-api-2.1.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/hdfs/lib/jetty-6.1.26.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/hdfs/lib/commons-cli-1.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/hdfs/lib/log4j-1.2.17.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/hdfs/lib/guava-11.0.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/hdfs/lib/commons-el-1.0.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/hdfs/lib/jersey-server-1.9.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/hdfs/lib/asm-3.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/hdfs/lib/jackson-mapper-asl-1.9.13.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/hdfs/lib/commons-daemon-1.0.13.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/hdfs/lib/netty-3.6.2.Final.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/hdfs/lib/commons-logging-1.1.3.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/hdfs/hadoop-hdfs-2.5.2-tests.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/hdfs/hadoop-hdfs-nfs-2.5.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/hdfs/hadoop-hdfs-2.5.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/zookeeper-3.4.6.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/leveldbjni-all-1.8.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/protobuf-java-2.5.0.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/jaxb-impl-2.2.3-1.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/jsr305-1.3.9.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/commons-io-2.4.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/commons-lang-2.6.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/jersey-guice-1.9.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/commons-codec-1.4.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/jackson-xc-1.9.13.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/jackson-core-asl-1.9.13.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/jersey-client-1.9.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/jettison-1.1.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/guice-servlet-3.0.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/jersey-core-1.9.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/servlet-api-2.5.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/jetty-util-6.1.26.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/commons-httpclient-3.1.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/jline-0.9.94.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/javax.inject-1.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/jetty-6.1.26.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/commons-cli-1.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/log4j-1.2.17.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/guava-11.0.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/guice-3.0.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/aopalliance-1.0.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/jersey-server-1.9.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/jackson-jaxrs-1.9.13.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/asm-3.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/activation-1.1.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/jackson-mapper-asl-1.9.13.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/netty-3.6.2.Final.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/commons-collections-3.2.1.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/jaxb-api-2.2.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/commons-compress-1.4.1.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/xz-1.0.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/stax-api-1.0-2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/commons-logging-1.1.3.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/lib/jersey-json-1.9.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/hadoop-yarn-common-2.5.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/hadoop-yarn-client-2.5.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/hadoop-yarn-server-tests-2.5.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/hadoop-yarn-server-applicationhistoryservice-2.5.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/hadoop-yarn-server-web-proxy-2.5.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/hadoop-yarn-applications-unmanaged-am-launcher-2.5.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/hadoop-yarn-server-common-2.5.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/hadoop-yarn-server-nodemanager-2.5.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/hadoop-yarn-applications-distributedshell-2.5.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/hadoop-yarn-server-resourcemanager-2.5.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/yarn/hadoop-yarn-api-2.5.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/lib/snappy-java-1.0.4.1.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/lib/leveldbjni-all-1.8.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/lib/protobuf-java-2.5.0.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/lib/commons-io-2.4.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/lib/jersey-guice-1.9.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/lib/jackson-core-asl-1.9.13.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/lib/guice-servlet-3.0.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/lib/jersey-core-1.9.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/lib/hamcrest-core-1.3.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/lib/junit-4.11.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/lib/javax.inject-1.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/lib/hadoop-annotations-2.5.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/lib/log4j-1.2.17.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/lib/guice-3.0.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/lib/aopalliance-1.0.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/lib/jersey-server-1.9.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/lib/paranamer-2.3.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/lib/avro-1.7.4.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/lib/asm-3.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/lib/jackson-mapper-asl-1.9.13.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/lib/netty-3.6.2.Final.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/lib/commons-compress-1.4.1.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/lib/xz-1.0.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-2.5.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.5.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.5.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-common-2.5.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.5.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.5.2-tests.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-app-2.5.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-plugins-2.5.2.jar:/home/florencio/Install/Hadoop_HBase/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-shuffle-2.5.2.jar:/contrib/capacity-scheduler/*.jar
+17/06/10 10:13:36 INFO zookeeper.ZooKeeper: Client environment:java.library.path=/home/florencio/Install/Hadoop_HBase/hadoop/lib/native
+17/06/10 10:13:36 INFO zookeeper.ZooKeeper: Client environment:java.io.tmpdir=/tmp
+17/06/10 10:13:36 INFO zookeeper.ZooKeeper: Client environment:java.compiler=<NA>
+17/06/10 10:13:36 INFO zookeeper.ZooKeeper: Client environment:os.name=Linux
+17/06/10 10:13:36 INFO zookeeper.ZooKeeper: Client environment:os.arch=amd64
+17/06/10 10:13:36 INFO zookeeper.ZooKeeper: Client environment:os.version=4.8.6-300.fc25.x86_64
+17/06/10 10:13:36 INFO zookeeper.ZooKeeper: Client environment:user.name=florencio
+17/06/10 10:13:36 INFO zookeeper.ZooKeeper: Client environment:user.home=/home/florencio
+17/06/10 10:13:36 INFO zookeeper.ZooKeeper: Client environment:user.dir=/home/florencio/workspace/MR76Analysis/out/artifacts/MR76Analysis_jar
+17/06/10 10:13:36 INFO zookeeper.ZooKeeper: Initiating client connection, connectString=192.168.111.134:2181 sessionTimeout=180000 watcher=hconnection-0x5e5eaa7f0x0, quorum=192.168.111.134:2181, baseZNode=/hbase_znode
+17/06/10 10:13:36 INFO zookeeper.ClientCnxn: Opening socket connection to server 192.168.111.134/192.168.111.134:2181. Will not attempt to authenticate using SASL (unknown error)
+17/06/10 10:13:36 INFO zookeeper.ClientCnxn: Socket connection established to 192.168.111.134/192.168.111.134:2181, initiating session
+17/06/10 10:13:36 INFO zookeeper.ClientCnxn: Session establishment complete on server 192.168.111.134/192.168.111.134:2181, sessionid = 0x15c92c5f1040006, negotiated timeout = 90000
+17/06/10 10:13:37 INFO zookeeper.RecoverableZooKeeper: Process identifier=hconnection-0x419b3cc5 connecting to ZooKeeper ensemble=192.168.111.134:2181
+17/06/10 10:13:37 INFO zookeeper.ZooKeeper: Initiating client connection, connectString=192.168.111.134:2181 sessionTimeout=180000 watcher=hconnection-0x419b3cc50x0, quorum=192.168.111.134:2181, baseZNode=/hbase_znode
+17/06/10 10:13:37 INFO zookeeper.ClientCnxn: Opening socket connection to server 192.168.111.134/192.168.111.134:2181. Will not attempt to authenticate using SASL (unknown error)
+17/06/10 10:13:37 INFO zookeeper.ClientCnxn: Socket connection established to 192.168.111.134/192.168.111.134:2181, initiating session
+17/06/10 10:13:37 INFO zookeeper.ClientCnxn: Session establishment complete on server 192.168.111.134/192.168.111.134:2181, sessionid = 0x15c92c5f1040007, negotiated timeout = 90000
+17/06/10 10:13:37 INFO client.HBaseAdmin: Started disable of ssanalysis:output_hr
+17/06/10 10:13:41 INFO client.HBaseAdmin: Started enable of ssanalysis:output_hr
+17/06/10 10:13:41 INFO database.BasicHBaseHandler: Truncated table: ssanalysis:output_hr
+17/06/10 10:13:41 INFO zookeeper.RecoverableZooKeeper: Process identifier=hconnection-0x41709aa8 connecting to ZooKeeper ensemble=192.168.111.134:2181
+17/06/10 10:13:41 INFO zookeeper.ZooKeeper: Initiating client connection, connectString=192.168.111.134:2181 sessionTimeout=180000 watcher=hconnection-0x41709aa80x0, quorum=192.168.111.134:2181, baseZNode=/hbase_znode
+17/06/10 10:13:41 INFO zookeeper.ClientCnxn: Opening socket connection to server 192.168.111.134/192.168.111.134:2181. Will not attempt to authenticate using SASL (unknown error)
+17/06/10 10:13:41 INFO zookeeper.ClientCnxn: Socket connection established to 192.168.111.134/192.168.111.134:2181, initiating session
+17/06/10 10:13:41 INFO zookeeper.ClientCnxn: Session establishment complete on server 192.168.111.134/192.168.111.134:2181, sessionid = 0x15c92c5f1040008, negotiated timeout = 90000
+17/06/10 10:13:41 INFO client.HBaseAdmin: Started disable of ssanalysis:output_day
+17/06/10 10:13:44 INFO client.HBaseAdmin: Started enable of ssanalysis:output_day
+17/06/10 10:13:44 INFO database.BasicHBaseHandler: Truncated table: ssanalysis:output_day
+17/06/10 10:13:44 INFO zookeeper.RecoverableZooKeeper: Process identifier=hconnection-0x2e9583af connecting to ZooKeeper ensemble=192.168.111.134:2181
+17/06/10 10:13:44 INFO zookeeper.ZooKeeper: Initiating client connection, connectString=192.168.111.134:2181 sessionTimeout=180000 watcher=hconnection-0x2e9583af0x0, quorum=192.168.111.134:2181, baseZNode=/hbase_znode
+17/06/10 10:13:44 INFO zookeeper.ClientCnxn: Opening socket connection to server 192.168.111.134/192.168.111.134:2181. Will not attempt to authenticate using SASL (unknown error)
+17/06/10 10:13:44 INFO zookeeper.ClientCnxn: Socket connection established to 192.168.111.134/192.168.111.134:2181, initiating session
+17/06/10 10:13:44 INFO zookeeper.ClientCnxn: Session establishment complete on server 192.168.111.134/192.168.111.134:2181, sessionid = 0x15c92c5f1040009, negotiated timeout = 90000
+17/06/10 10:13:44 INFO client.HBaseAdmin: Started disable of ssanalysis:output_tot
+17/06/10 10:13:54 INFO client.HBaseAdmin: Started enable of ssanalysis:output_tot
+17/06/10 10:13:54 INFO database.BasicHBaseHandler: Truncated table: ssanalysis:output_tot
+17/06/10 10:13:54 INFO client.RMProxy: Connecting to ResourceManager at florencio/192.168.111.134:8032
+17/06/10 10:13:54 WARN mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+17/06/10 10:13:57 INFO zookeeper.RecoverableZooKeeper: Process identifier=hconnection-0x54ff3774 connecting to ZooKeeper ensemble=192.168.111.134:2181
+17/06/10 10:13:57 INFO zookeeper.ZooKeeper: Initiating client connection, connectString=192.168.111.134:2181 sessionTimeout=90000 watcher=hconnection-0x54ff37740x0, quorum=192.168.111.134:2181, baseZNode=/hbase_znode
+17/06/10 10:13:57 INFO zookeeper.ClientCnxn: Opening socket connection to server 192.168.111.134/192.168.111.134:2181. Will not attempt to authenticate using SASL (unknown error)
+17/06/10 10:13:57 INFO zookeeper.ClientCnxn: Socket connection established to 192.168.111.134/192.168.111.134:2181, initiating session
+17/06/10 10:13:57 INFO zookeeper.ClientCnxn: Session establishment complete on server 192.168.111.134/192.168.111.134:2181, sessionid = 0x15c92c5f104000a, negotiated timeout = 90000
+17/06/10 10:13:57 INFO util.RegionSizeCalculator: Calculating region sizes for table "ssanalysis:TWITTER_API".
+17/06/10 10:13:57 INFO client.ConnectionManager$HConnectionImplementation: Closing master protocol: MasterService
+17/06/10 10:13:57 INFO client.ConnectionManager$HConnectionImplementation: Closing zookeeper sessionid=0x15c92c5f104000a
+17/06/10 10:13:57 INFO zookeeper.ClientCnxn: EventThread shut down
+17/06/10 10:13:57 INFO zookeeper.ZooKeeper: Session: 0x15c92c5f104000a closed
+17/06/10 10:13:57 INFO mapreduce.JobSubmitter: number of splits:1
+17/06/10 10:13:57 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1497110436941_0001
+17/06/10 10:13:57 INFO impl.YarnClientImpl: Submitted application application_1497110436941_0001
+17/06/10 10:13:57 INFO mapreduce.Job: The url to track the job: http://florencio:10021/proxy/application_1497110436941_0001/
+17/06/10 10:13:57 INFO mapreduce.Job: Running job: job_1497110436941_0001
+17/06/10 10:14:06 INFO mapreduce.Job: Job job_1497110436941_0001 running in uber mode : false
+17/06/10 10:14:06 INFO mapreduce.Job:  map 0% reduce 0%
+17/06/10 10:14:13 INFO mapreduce.Job: Task Id : attempt_1497110436941_0001_m_000000_0, Status : FAILED
+Container [pid=92412,containerID=container_1497110436941_0001_01_000002] is running beyond virtual memory limits. Current usage: 740.5 MB of 1 GB physical memory used; 2.6 GB of 2.1 GB virtual memory used. Killing container.
+Dump of the process-tree for container_1497110436941_0001_01_000002 :
+	|- PID PPID PGRPID SESSID CMD_NAME USER_MODE_TIME(MILLIS) SYSTEM_TIME(MILLIS) VMEM_USAGE(BYTES) RSSMEM_USAGE(PAGES) FULL_CMD_LINE
+	|- 92425 92412 92412 92412 (java) 435 133 2663571456 188803 /usr/bin/java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx768m -Xmn128m -XX:PermSize=128m -XX:MaxPermSize=128m -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=70 -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xloggc:/home/florencio/Install/Hadoop_HBase/hadoop/logs/gc-florencio-mapred.log -Djava.io.tmpdir=/home/florencio/Install/data/hdfs/hdfs_tmp/nm-local-dir/usercache/florencio/appcache/application_1497110436941_0001/container_1497110436941_0001_01_000002/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/home/florencio/Install/Hadoop_HBase/hadoop/logs/userlogs/application_1497110436941_0001/container_1497110436941_0001_01_000002 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA org.apache.hadoop.mapred.YarnChild 192.168.111.134 33533 attempt_1497110436941_0001_m_000000_0 2 
+	|- 92412 90312 92412 92412 (bash) 0 0 122769408 762 /bin/bash -c /usr/bin/java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN  -Xmx768m -Xmn128m -XX:PermSize=128m -XX:MaxPermSize=128m -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=70 -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xloggc:/home/florencio/Install/Hadoop_HBase/hadoop/logs/gc-florencio-mapred.log -Djava.io.tmpdir=/home/florencio/Install/data/hdfs/hdfs_tmp/nm-local-dir/usercache/florencio/appcache/application_1497110436941_0001/container_1497110436941_0001_01_000002/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/home/florencio/Install/Hadoop_HBase/hadoop/logs/userlogs/application_1497110436941_0001/container_1497110436941_0001_01_000002 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA org.apache.hadoop.mapred.YarnChild 192.168.111.134 33533 attempt_1497110436941_0001_m_000000_0 2 1>/home/florencio/Install/Hadoop_HBase/hadoop/logs/userlogs/application_1497110436941_0001/container_1497110436941_0001_01_000002/stdout 2>/home/florencio/Install/Hadoop_HBase/hadoop/logs/userlogs/application_1497110436941_0001/container_1497110436941_0001_01_000002/stderr  
+>>>>>>> bc019624e91ce8b6ae12bd636f917c5e25170a59
 
 Container killed on request. Exit code is 143
 Container exited with a non-zero exit code 143
 
+<<<<<<< HEAD
 17/06/10 17:09:53 INFO mapreduce.Job:  map 100% reduce 100%
 17/06/10 17:09:54 INFO mapreduce.Job: Job job_1497110436941_0004 completed successfully
 17/06/10 17:09:54 INFO mapreduce.Job: Counters: 50
+=======
+17/06/10 10:14:19 INFO mapreduce.Job:  map 100% reduce 0%
+17/06/10 10:14:25 INFO mapreduce.Job:  map 100% reduce 100%
+17/06/10 10:14:25 INFO mapreduce.Job: Job job_1497110436941_0001 completed successfully
+17/06/10 10:14:25 INFO mapreduce.Job: Counters: 51
+>>>>>>> bc019624e91ce8b6ae12bd636f917c5e25170a59
 	File System Counters
 		FILE: Number of bytes read=247660
 		FILE: Number of bytes written=743543
@@ -87,6 +166,7 @@ Container exited with a non-zero exit code 143
 		HDFS: Number of large read operations=0
 		HDFS: Number of write operations=0
 	Job Counters 
+<<<<<<< HEAD
 		Failed reduce tasks=1
 		Launched map tasks=1
 		Launched reduce tasks=2
@@ -99,6 +179,21 @@ Container exited with a non-zero exit code 143
 		Total vcore-seconds taken by all reduce tasks=8270
 		Total megabyte-seconds taken by all map tasks=5081088
 		Total megabyte-seconds taken by all reduce tasks=8468480
+=======
+		Failed map tasks=1
+		Launched map tasks=2
+		Launched reduce tasks=1
+		Other local map tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=9532
+		Total time spent by all reduces in occupied slots (ms)=3594
+		Total time spent by all map tasks (ms)=9532
+		Total time spent by all reduce tasks (ms)=3594
+		Total vcore-seconds taken by all map tasks=9532
+		Total vcore-seconds taken by all reduce tasks=3594
+		Total megabyte-seconds taken by all map tasks=9760768
+		Total megabyte-seconds taken by all reduce tasks=3680256
+>>>>>>> bc019624e91ce8b6ae12bd636f917c5e25170a59
 	Map-Reduce Framework
 		Map input records=2405
 		Map output records=7215
@@ -115,11 +210,19 @@ Container exited with a non-zero exit code 143
 		Shuffled Maps =1
 		Failed Shuffles=0
 		Merged Map outputs=1
+<<<<<<< HEAD
 		GC time elapsed (ms)=195
 		CPU time spent (ms)=4860
 		Physical memory (bytes) snapshot=1035100160
 		Virtual memory (bytes) snapshot=5574307840
 		Total committed heap usage (bytes)=920141824
+=======
+		GC time elapsed (ms)=172
+		CPU time spent (ms)=4710
+		Physical memory (bytes) snapshot=1024290816
+		Virtual memory (bytes) snapshot=5570494464
+		Total committed heap usage (bytes)=919076864
+>>>>>>> bc019624e91ce8b6ae12bd636f917c5e25170a59
 	Shuffle Errors
 		BAD_ID=0
 		CONNECTION=0
@@ -131,6 +234,7 @@ Container exited with a non-zero exit code 143
 		Bytes Read=0
 	File Output Format Counters 
 		Bytes Written=0
+<<<<<<< HEAD
 17/06/10 17:09:54 INFO mapreduce.Job: Running job: job_1497110436941_0004
 17/06/10 17:09:54 INFO mapreduce.Job: Job job_1497110436941_0004 running in uber mode : false
 17/06/10 17:09:54 INFO mapreduce.Job:  map 100% reduce 100%
@@ -140,12 +244,28 @@ Dump of the process-tree for container_1497110436941_0004_01_000003 :
 	|- PID PPID PGRPID SESSID CMD_NAME USER_MODE_TIME(MILLIS) SYSTEM_TIME(MILLIS) VMEM_USAGE(BYTES) RSSMEM_USAGE(PAGES) FULL_CMD_LINE
 	|- 104607 104595 104595 104595 (java) 424 67 2655539200 58287 /usr/bin/java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx768m -Xmn128m -XX:PermSize=128m -XX:MaxPermSize=128m -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=70 -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xloggc:/home/florencio/Install/Hadoop_HBase/hadoop/logs/gc-florencio-mapred.log -Djava.io.tmpdir=/home/florencio/Install/data/hdfs/hdfs_tmp/nm-local-dir/usercache/florencio/appcache/application_1497110436941_0004/container_1497110436941_0004_01_000003/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/home/florencio/Install/Hadoop_HBase/hadoop/logs/userlogs/application_1497110436941_0004/container_1497110436941_0004_01_000003 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA org.apache.hadoop.mapred.YarnChild 192.168.111.134 34417 attempt_1497110436941_0004_r_000000_0 3 
 	|- 104595 90312 104595 104595 (bash) 0 0 122769408 772 /bin/bash -c /usr/bin/java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN  -Xmx768m -Xmn128m -XX:PermSize=128m -XX:MaxPermSize=128m -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=70 -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xloggc:/home/florencio/Install/Hadoop_HBase/hadoop/logs/gc-florencio-mapred.log -Djava.io.tmpdir=/home/florencio/Install/data/hdfs/hdfs_tmp/nm-local-dir/usercache/florencio/appcache/application_1497110436941_0004/container_1497110436941_0004_01_000003/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/home/florencio/Install/Hadoop_HBase/hadoop/logs/userlogs/application_1497110436941_0004/container_1497110436941_0004_01_000003 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA org.apache.hadoop.mapred.YarnChild 192.168.111.134 34417 attempt_1497110436941_0004_r_000000_0 3 1>/home/florencio/Install/Hadoop_HBase/hadoop/logs/userlogs/application_1497110436941_0004/container_1497110436941_0004_01_000003/stdout 2>/home/florencio/Install/Hadoop_HBase/hadoop/logs/userlogs/application_1497110436941_0004/container_1497110436941_0004_01_000003/stderr  
+=======
+17/06/10 10:14:25 INFO mapreduce.Job: Running job: job_1497110436941_0001
+17/06/10 10:14:25 INFO mapreduce.Job: Job job_1497110436941_0001 running in uber mode : false
+17/06/10 10:14:25 INFO mapreduce.Job:  map 100% reduce 100%
+17/06/10 10:14:25 INFO mapreduce.Job: Task Id : attempt_1497110436941_0001_m_000000_0, Status : FAILED
+Container [pid=92412,containerID=container_1497110436941_0001_01_000002] is running beyond virtual memory limits. Current usage: 740.5 MB of 1 GB physical memory used; 2.6 GB of 2.1 GB virtual memory used. Killing container.
+Dump of the process-tree for container_1497110436941_0001_01_000002 :
+	|- PID PPID PGRPID SESSID CMD_NAME USER_MODE_TIME(MILLIS) SYSTEM_TIME(MILLIS) VMEM_USAGE(BYTES) RSSMEM_USAGE(PAGES) FULL_CMD_LINE
+	|- 92425 92412 92412 92412 (java) 435 133 2663571456 188803 /usr/bin/java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx768m -Xmn128m -XX:PermSize=128m -XX:MaxPermSize=128m -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=70 -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xloggc:/home/florencio/Install/Hadoop_HBase/hadoop/logs/gc-florencio-mapred.log -Djava.io.tmpdir=/home/florencio/Install/data/hdfs/hdfs_tmp/nm-local-dir/usercache/florencio/appcache/application_1497110436941_0001/container_1497110436941_0001_01_000002/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/home/florencio/Install/Hadoop_HBase/hadoop/logs/userlogs/application_1497110436941_0001/container_1497110436941_0001_01_000002 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA org.apache.hadoop.mapred.YarnChild 192.168.111.134 33533 attempt_1497110436941_0001_m_000000_0 2 
+	|- 92412 90312 92412 92412 (bash) 0 0 122769408 762 /bin/bash -c /usr/bin/java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN  -Xmx768m -Xmn128m -XX:PermSize=128m -XX:MaxPermSize=128m -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=70 -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xloggc:/home/florencio/Install/Hadoop_HBase/hadoop/logs/gc-florencio-mapred.log -Djava.io.tmpdir=/home/florencio/Install/data/hdfs/hdfs_tmp/nm-local-dir/usercache/florencio/appcache/application_1497110436941_0001/container_1497110436941_0001_01_000002/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/home/florencio/Install/Hadoop_HBase/hadoop/logs/userlogs/application_1497110436941_0001/container_1497110436941_0001_01_000002 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA org.apache.hadoop.mapred.YarnChild 192.168.111.134 33533 attempt_1497110436941_0001_m_000000_0 2 1>/home/florencio/Install/Hadoop_HBase/hadoop/logs/userlogs/application_1497110436941_0001/container_1497110436941_0001_01_000002/stdout 2>/home/florencio/Install/Hadoop_HBase/hadoop/logs/userlogs/application_1497110436941_0001/container_1497110436941_0001_01_000002/stderr  
+>>>>>>> bc019624e91ce8b6ae12bd636f917c5e25170a59
 
 Container killed on request. Exit code is 143
 Container exited with a non-zero exit code 143
 
+<<<<<<< HEAD
 17/06/10 17:09:54 INFO mapreduce.Job: Job job_1497110436941_0004 completed successfully
 17/06/10 17:09:54 INFO mapreduce.Job: Counters: 50
+=======
+17/06/10 10:14:25 INFO mapreduce.Job: Job job_1497110436941_0001 completed successfully
+17/06/10 10:14:25 INFO mapreduce.Job: Counters: 51
+>>>>>>> bc019624e91ce8b6ae12bd636f917c5e25170a59
 	File System Counters
 		FILE: Number of bytes read=247660
 		FILE: Number of bytes written=743543
@@ -158,6 +278,7 @@ Container exited with a non-zero exit code 143
 		HDFS: Number of large read operations=0
 		HDFS: Number of write operations=0
 	Job Counters 
+<<<<<<< HEAD
 		Failed reduce tasks=1
 		Launched map tasks=1
 		Launched reduce tasks=2
@@ -170,6 +291,21 @@ Container exited with a non-zero exit code 143
 		Total vcore-seconds taken by all reduce tasks=8270
 		Total megabyte-seconds taken by all map tasks=5081088
 		Total megabyte-seconds taken by all reduce tasks=8468480
+=======
+		Failed map tasks=1
+		Launched map tasks=2
+		Launched reduce tasks=1
+		Other local map tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=9532
+		Total time spent by all reduces in occupied slots (ms)=3594
+		Total time spent by all map tasks (ms)=9532
+		Total time spent by all reduce tasks (ms)=3594
+		Total vcore-seconds taken by all map tasks=9532
+		Total vcore-seconds taken by all reduce tasks=3594
+		Total megabyte-seconds taken by all map tasks=9760768
+		Total megabyte-seconds taken by all reduce tasks=3680256
+>>>>>>> bc019624e91ce8b6ae12bd636f917c5e25170a59
 	Map-Reduce Framework
 		Map input records=2405
 		Map output records=7215
@@ -186,11 +322,19 @@ Container exited with a non-zero exit code 143
 		Shuffled Maps =1
 		Failed Shuffles=0
 		Merged Map outputs=1
+<<<<<<< HEAD
 		GC time elapsed (ms)=195
 		CPU time spent (ms)=4860
 		Physical memory (bytes) snapshot=1035100160
 		Virtual memory (bytes) snapshot=5574307840
 		Total committed heap usage (bytes)=920141824
+=======
+		GC time elapsed (ms)=172
+		CPU time spent (ms)=4710
+		Physical memory (bytes) snapshot=1024290816
+		Virtual memory (bytes) snapshot=5570494464
+		Total committed heap usage (bytes)=919076864
+>>>>>>> bc019624e91ce8b6ae12bd636f917c5e25170a59
 	Shuffle Errors
 		BAD_ID=0
 		CONNECTION=0
