@@ -1,0 +1,6 @@
+/home/florencio/workspace/MR76Analysis/src/main/java/hadoop/Mapper.java
+/home/florencio/workspace/MR76Analysis/src/main/java/database/BasicHBaseHandler.java
+/home/florencio/workspace/MR76Analysis/src/main/java/main/Main.java
+/home/florencio/workspace/MR76Analysis/src/main/java/hadoop/Reducer.java
+/home/florencio/workspace/MR76Analysis/src/main/java/database/Reader.java
+/home/florencio/workspace/MR76Analysis/src/main/java/hadoop/SummaryWritable.java

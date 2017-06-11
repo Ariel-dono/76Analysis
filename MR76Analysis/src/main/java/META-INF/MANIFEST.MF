@@ -1,2 +1,7 @@
 Manifest-Version: 1.0
+<<<<<<< HEAD
 Main-Class: main.Main
+
+=======
+Main-Class: main.Main
+>>>>>>> bc019624e91ce8b6ae12bd636f917c5e25170a59

@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+Not a valid JAR: /home/florencio/workspace/76Analysis/com76analysis/out/artifacts/com76analysis_jar/com.76analysis.jar
+=======
 17/06/10 09:25:22 INFO zookeeper.RecoverableZooKeeper: Process identifier=hconnection-0x65ea0bcd connecting to ZooKeeper ensemble=192.168.111.134:2181
 17/06/10 09:25:22 INFO zookeeper.ZooKeeper: Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
 17/06/10 09:25:22 INFO zookeeper.ZooKeeper: Client environment:host.name=florencio
@@ -19,3 +22,4 @@
 17/06/10 09:25:22 INFO zookeeper.ClientCnxn: Socket connection established to 192.168.111.134/192.168.111.134:2181, initiating session
 17/06/10 09:25:22 INFO zookeeper.ClientCnxn: Session establishment complete on server 192.168.111.134/192.168.111.134:2181, sessionid = 0x15c8affa8fd0093, negotiated timeout = 90000
 Connection reset
+>>>>>>> bc019624e91ce8b6ae12bd636f917c5e25170a59

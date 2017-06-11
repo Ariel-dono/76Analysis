@@ -1,10 +1,15 @@
 package hadoop;
 
 import org.apache.hadoop.io.*;
+<<<<<<< HEAD
+import org.apache.hadoop.hbase.client.Result;
+import org.apache.hadoop.hbase.Cell;
+=======
 import org.hypertable.hadoop.mapreduce.KeyWritable;
 import org.apache.hadoop.hbase.client.Result;
 import org.apache.hadoop.hbase.Cell;
 import org.apache.hadoop.hbase.client.Result;
+>>>>>>> bc019624e91ce8b6ae12bd636f917c5e25170a59
 import org.apache.hadoop.hbase.io.ImmutableBytesWritable;
 import org.apache.hadoop.hbase.mapreduce.TableMapper;
 import org.apache.hadoop.hbase.util.Bytes;
@@ -104,7 +109,10 @@ public class Mapper extends TableMapper<Text, SummaryWritable> {
 			}*/
 			hasOtherTags = true;
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> bc019624e91ce8b6ae12bd636f917c5e25170a59
 		}
 
 		//agrego los valores al mapper

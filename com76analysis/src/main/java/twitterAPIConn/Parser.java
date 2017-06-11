@@ -15,7 +15,7 @@ public class Parser {
 
     public String transform(){
         //Replace english
-        //this.message = this.message.replaceAll("https"," ");
+        this.message = this.message.replaceAll("RT"," ");
         this.message = this.message.replaceAll("\\b(http|https|ftp)://[a-zA-Z0-9/%=?_].+[a-zA-Z0-9/%=?_]","");
         this.message = this.message.replaceAll(":"," ");
         this.message = this.message.replaceAll("[\n\r\t]+"," ");
@@ -42,6 +42,8 @@ public class Parser {
         this.message = this.message.replaceAll("After[ ]"," ");
         this.message = this.message.replaceAll("Eve[a-mo-z]{1,2}[ ]"," ");
         this.message = this.message.replaceAll("M[oa][b-mo-z]{1,2}[ ]"," ");
+        this.message = this.message.replaceAll("[ ]f[or][a-z]{1,2}]"," ");
+        this.message = this.message.replaceAll("F[or][a-z]{1,2}]"," ");
 
         //Replace in spanish
         this.message = this.message.replaceAll("[ ][[cC]lu][a-hj-z]{1,2}[ ]"," ");

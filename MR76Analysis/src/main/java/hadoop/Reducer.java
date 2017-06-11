@@ -2,10 +2,16 @@ package hadoop;
 
 import org.apache.commons.lang.StringUtils;
 import org.apache.hadoop.io.*;
+<<<<<<< HEAD
+import org.apache.hadoop.hbase.client.Mutation;
+import org.apache.hadoop.hbase.client.Put;
+//import org.apache.hadoop.hbase.client.Result;
+=======
 import org.apache.hadoop.hbase.Cell;
 import org.apache.hadoop.hbase.client.Mutation;
 import org.apache.hadoop.hbase.client.Put;
 import org.apache.hadoop.hbase.client.Result;
+>>>>>>> bc019624e91ce8b6ae12bd636f917c5e25170a59
 import org.apache.hadoop.hbase.io.ImmutableBytesWritable;
 import org.apache.hadoop.hbase.mapreduce.TableReducer;
 import org.apache.hadoop.hbase.util.Bytes;

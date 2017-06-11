@@ -6,13 +6,10 @@ import org.apache.hadoop.hbase.TableName;
 import org.apache.hadoop.hbase.client.ConnectionFactory;
 import org.apache.hadoop.hbase.client.Table;
 import twitterAPIConn.Controler;
-import java.text.SimpleDateFormat;
+
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.List;
 
-import Database.Hypertable;
-import twitterAPIConn.Parser;
 import twitterAPIConn.TwitterAPIConn;
 
 /**

@@ -4,30 +4,17 @@ package twitterAPIConn;
  * Created by ariel on 22/05/17.
  */
 
-import Database.Hypertable;
 import twitter4j.*;
 import twitter4j.auth.AccessToken;
 
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
-
-import org.apache.hadoop.conf.Configuration;
-import org.apache.hadoop.hbase.HBaseConfiguration;
-import org.apache.hadoop.hbase.TableName;
-import org.apache.hadoop.hbase.client.ConnectionFactory;
 import org.apache.hadoop.hbase.client.Put;
 import org.apache.hadoop.hbase.client.Table;
 import org.apache.hadoop.hbase.util.Bytes;
 
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
 
 public class TwitterAPIConn extends Thread{
     private long lastTweet = 0;
     private boolean activeSearch = true;
-    private Hypertable db;
     private Parser regexReplacement;
 
     private static final byte[] C1 = "c1".getBytes();
