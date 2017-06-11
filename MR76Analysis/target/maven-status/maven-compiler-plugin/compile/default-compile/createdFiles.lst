@@ -1,0 +1,8 @@
+hadoop/WordCount.class
+hadoop/Reducer.class
+database/BasicHBaseHandler.class
+database/Reader.class
+main/Main.class
+hadoop/Mapper.class
+hadoop/SummaryWritable.class
+hadoop/Reducer$1.class
