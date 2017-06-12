@@ -1,0 +1,66 @@
+<div class="row">
+  <div class="col-md-6">
+
+  </div>
+  <div class="col-md-6">
+    
+  </div>
+</div>
+
+<div class="row">
+  <h2>{{subtitle}}</h2>
+  <svg  width="900" height="500"></svg>
+</div>
+<div class="row">
+  <div class="table-responsive">
+    <h2 class="sub-header">Tablas de valores</h2>
+    <h3 class="sub-header">Cantidad de Usuarios</h3>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Key</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let value of ListSet[0].values ">
+          <td>{{value.date}}</td>
+          <td>{{value.value}}</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 class="sub-header">Cantidad de Tweets</h3>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Key</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let value of ListSet[1].values ">
+          <td>{{value.date}}</td>
+          <td>{{value.value}}</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 class="sub-header">Otros HashTags</h3>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Key</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let value of ListSet[2].values ">
+          <td>{{value.date}}</td>
+          <td>{{value.value}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+ 

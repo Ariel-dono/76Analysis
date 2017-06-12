@@ -1,0 +1,23 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="navbar navbar-inverse navbar-fixed-top navtopmenu">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <img class="imageIcon" src="/assets/images/twiter.png">
+          <a class="navbar-brand titleConf" (click)="update('Resumen')">76Analysis</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-sm-3 col-md-2 sidebar paddingtopmenu">
+  <ul class="nav nav-sidebar" >
+    <li *ngFor="let name of tagList">
+       <a (click)="update(name)"> {{ name }}</a>
+    </li>
+  </ul>
+  
+</div>
+
+      
