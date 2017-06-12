@@ -1,0 +1,7 @@
+stopping historyserver
+stopping proxyserver
+stopping nodemanager
+stopping resourcemanager
+stopping datanode
+stopping secondarynamenode
+stopping namenode
