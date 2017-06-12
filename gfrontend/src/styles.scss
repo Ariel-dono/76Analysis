@@ -1,0 +1,149 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+/* You can add global styles to this file, and also import other style files */
+
+
+//Lineas
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  //shape-rendering: crispEdges;
+}
+
+.axis-title {
+  fill: none;
+  stroke: black;
+  stroke-width: 0.5px;
+}
+
+
+.axis--x path {
+  /*display: none;*/
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 6px;
+}
+
+.line2 {
+  fill: none;
+  stroke: crimson;
+  stroke-width: 2px;
+}
+
+//BArras
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis-title {
+  fill: none;
+  stroke: black;
+  stroke-width: 0.5px;
+}
+
+//Cuadros
+
+.square {
+    background: #666;
+    width: 180px;
+    height: 140px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.firstF{
+  color:#224684;
+}
+.secondF{
+  color:#2ac0d4;
+  font-size: 36px;
+  font-weight: bold;
+  font-weight: 900;
+}
+.thirdF{
+  color:#fff;
+}
+
+.first{
+background:#2ac0d4;
+}
+
+.second{
+background:#224684;
+
+}
+
+.third{
+background:#fff;
+}
+
+.board{
+  background: #6ca4d4;
+}
+
+.square h1 {
+    padding-top: -10px;
+    color: #fff;
+    font-weight: bold;
+    font-weight: 900;
+    text-align: center;
+    font-size: 60px;
+}
+.squarefontlow {
+    padding-top: 0px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+.squarefonthigh{
+  padding-top: 0px;
+  color: #fff;
+  font-weight: bold;
+  font-weight: 900;
+  text-align: center;
+  font-size: 60px;
+}
+
+.leftPadd{
+  padding-left: 35px;
+}
+
+.hfont
+{
+  font-size: 12px;
+}
+
+.table-title{
+  @extend .squarefontlow;
+  font-size: 26px !important;
+  color: #000;
+}
+
+.imageIcon{
+  padding-top: 10px;
+  padding-left: 15px;
+  width: 50px;
+}
+
+.titleConf{
+  padding-top: 17px;
+  padding-left: 46px;
+  width: 134px;
+  color:#6ca4d4;
+  font-weight: bold;
+}
